@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+body {
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+h2 {
+  font-size: 18px;
+}
+h2 span {
+  color: #c471f5;
+}
+p {
+  text-align: justify;
+  color: #6c6c6c;
+}
+.profile-pic {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-size: cover;
+  border: 4px solid #c8c8c8;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 500px;
+  height: 230px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 1px -1px 86px -8px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 1px -1px 86px -8px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 1px -1px 86px -8px rgba(0, 0, 0, 0.46);
+}
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.box-header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.box-header-right p {
+  color: #fa71cd;
+}
+.box-body {
+  width: 90%;
+  margin-bottom: 8px;
+}
+.box-body span {
+  color: #c8c8c8;
+}
+.box-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-date p {
+  color: #8d8d8d;
+}
+a img {
+  height: 48px;
+}
